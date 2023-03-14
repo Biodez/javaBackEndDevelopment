@@ -19,6 +19,9 @@ import com.ltp.contacts.pojo.Contact;
 
 import com.ltp.contacts.service.ContactService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+
+@Tag(name = "Contact Controller", description = "Create, retrieve and delete contact")
 @RestController
 public class ContactController {
     
